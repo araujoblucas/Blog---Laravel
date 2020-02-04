@@ -37335,16 +37335,12 @@ var staticRenderFns = [
         _c("ol", { staticClass: "carousel-indicators" }, [
           _c("li", {
             staticClass: "active",
-            attrs: { "data-target": "#myCarousel", "data-slide-to": "0" }
+            attrs: { "data-target": "#demo", "data-slide-to": "0" }
           }),
           _vm._v(" "),
-          _c("li", {
-            attrs: { "data-target": "#myCarousel", "data-slide-to": "1" }
-          }),
+          _c("li", { attrs: { "data-target": "#demo", "data-slide-to": "1" } }),
           _vm._v(" "),
-          _c("li", {
-            attrs: { "data-target": "#myCarousel", "data-slide-to": "2" }
-          })
+          _c("li", { attrs: { "data-target": "#demo", "data-slide-to": "2" } })
         ]),
         _vm._v(" "),
         _c(
@@ -37354,59 +37350,40 @@ var staticRenderFns = [
             staticStyle: { width: "100%", height: "100%" }
           },
           [
-            _c(
-              "div",
-              {
-                staticClass: "carousel-item active",
-                staticStyle: { width: "100%", height: "100%" }
-              },
-              [
-                _c("img", {
-                  staticStyle: { width: "100%", height: "100%" },
-                  attrs: {
-                    src:
-                      "https://responsivedesign.is/wp-content/uploads/2016/11/Owl-Carousel-2_ri92wj.jpg",
-                    alt: "Los Angeles"
-                  }
-                })
-              ]
-            ),
+            _c("div", { staticClass: "carousel-item active" }, [
+              _c("img", {
+                staticClass: "img-responsive",
+                staticStyle: { width: "100%", height: "100%" },
+                attrs: {
+                  src:
+                    "https://responsivedesign.is/wp-content/uploads/2016/11/Owl-Carousel-2_ri92wj.jpg",
+                  alt: "Los Angeles"
+                }
+              })
+            ]),
             _vm._v(" "),
-            _c(
-              "div",
-              {
-                staticClass: "carousel-item",
-                staticStyle: { width: "100%", height: "100%" }
-              },
-              [
-                _c("img", {
-                  staticStyle: { width: "100%", height: "100%" },
-                  attrs: {
-                    src:
-                      "https://responsivedesign.is/wp-content/uploads/2016/11/Owl-Carousel-2_ri92wj.jpg",
-                    alt: "Chicago"
-                  }
-                })
-              ]
-            ),
+            _c("div", { staticClass: "carousel-item" }, [
+              _c("img", {
+                staticStyle: { width: "100%", height: "100%" },
+                attrs: {
+                  src:
+                    "https://upload.wikimedia.org/wikipedia/commons/d/d0/Alvorada_de_outono_na_Imagem_de_Minas.JPG",
+                  alt: "Chicago"
+                }
+              })
+            ]),
             _vm._v(" "),
-            _c(
-              "div",
-              {
-                staticClass: "carousel-item",
-                staticStyle: { width: "100%", height: "100%" }
-              },
-              [
-                _c("img", {
-                  staticStyle: { width: "100%", height: "100%" },
-                  attrs: {
-                    src:
-                      "https://responsivedesign.is/wp-content/uploads/2016/11/Owl-Carousel-2_ri92wj.jpg",
-                    alt: "New york"
-                  }
-                })
-              ]
-            )
+            _c("div", { staticClass: "carousel-item" }, [
+              _c("img", {
+                staticClass: "img-fluid",
+                staticStyle: { width: "100%", height: "100%" },
+                attrs: {
+                  src:
+                    "https://responsivedesign.is/wp-content/uploads/2016/11/Owl-Carousel-2_ri92wj.jpg",
+                  alt: "New york"
+                }
+              })
+            ])
           ]
         ),
         _vm._v(" "),
