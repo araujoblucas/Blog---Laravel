@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8dff7e60-59a4-4101-b9b0-43d7dd33e27a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/Carousel.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/Carousel.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,6 +131,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -167,12 +171,25 @@
       <workItem from="1580166976550" duration="2108000" />
       <workItem from="1580412230660" duration="2072000" />
       <workItem from="1580417068879" duration="11400000" />
-      <workItem from="1580766700122" duration="5351000" />
+      <workItem from="1580766700122" duration="6131000" />
+      <workItem from="1580856147784" duration="6500000" />
     </task>
+    <task id="LOCAL-00001" summary="Correções no carousel">
+      <created>1580785062539</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580785062539</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Correções no carousel" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correções no carousel" />
   </component>
   <component name="WindowStateProjectService">
     <state x="363" y="93" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1580412827178">
@@ -183,6 +200,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1580424984123" />
+    <state x="308" y="0" width="842" height="728" key="CommitChangelistDialog2" timestamp="1580785059887">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="308" y="0" width="842" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1580785059887" />
     <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1580433903730">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -215,13 +236,17 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="7" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1580433905604" />
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1580766736421">
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1580856164107">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1580766736421" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1580424395719">
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1580856164107" />
+    <state x="492" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580785199533">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1580424395719" />
+    <state x="492" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1580785199533" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1580859662131">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1580859662131" />
   </component>
 </project>

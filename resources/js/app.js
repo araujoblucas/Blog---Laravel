@@ -31,3 +31,4 @@ Vue.component('example-component', require('./components/Carousel.vue').default)
 const app = new Vue({
     el: '#app',
 });
+
